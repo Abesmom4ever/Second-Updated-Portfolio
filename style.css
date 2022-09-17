@@ -1,0 +1,199 @@
+* {
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    line-height: 1;
+    scroll-behavior: smooth;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0;
+    flex-wrap: wrap;
+    overflow-x: hidden;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    font-size: 100%;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+a:link,
+a:visited {
+    color: black;
+}
+
+h2 {
+    padding: 10px;
+}
+
+#Header {
+    text-align: center;
+}
+
+.About {
+    flex: 1;
+    text-align: center;
+    padding: 25px;
+}
+
+.Description {
+    padding: 15px;
+    color: black;
+    flex: 3;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.Description a {
+    text-decoration: none;
+    background: linear-gradient(to bottom, transparent 50%, lightblue);
+}
+
+.Description a:hover {
+    color: black;
+    background-color: lightblue;
+    transition: 800ms;
+}
+
+.SelfPortrait {
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+#MarvelQuiz {
+    text-align: center;
+    padding: 10px;
+}
+
+#MarvelQuiz img {
+    width: 50%;
+    height: auto;
+    border: 10px lightblue;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.ProjectTwoThree {
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    padding: 10px;
+}
+
+.ProjectTwoThree a {
+    text-align: center;
+}
+
+.ProjectTwoThree img {
+    padding: 20px;
+    border: 10px lightblue;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+.ProjectFourFive {
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    padding: 10px;
+}
+
+.ProjectFourFive a {
+    text-align: center;
+}
+
+.ProjectFourFive img {
+    padding: 20px;
+    border: 10px lightblue;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+.Main img:hover {
+    background-color: gray;
+    transition: 300ms;
+    opacity: 50%;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.Logos {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#Logo {
+    width: 10%;
+    height: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+#Logo img {
+    width: 25%;
+    height: auto;
+}
+
+.Logos img:hover {
+    opacity: 50%;
+}
+
+footer {
+    background-color: lightblue;
+}
+
+@media screen and (max-width: 734px) {
+    header,
+    main {
+        flex-direction: column;
+    }
+
+    #Logo {
+        width: 25%;
+        height: auto;
+        padding: 5px;
+    }
+    .Logos {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .ProjectOne,
+    .ProjectTwoThree,
+    .ProjectFourFive {
+        flex-wrap: nowrap;
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+}
