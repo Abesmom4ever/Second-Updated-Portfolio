@@ -28,9 +28,7 @@ THEN they are presented with a responsive layout that adapts to their viewport
 
 ## Video Demo
 
-
-https://user-images.githubusercontent.com/76074771/190867937-d5d1026f-77f9-4c2c-861f-279c7b433596.mov
-
+https://user-images.githubusercontent.com/76074771/190867957-ddbe9dfa-edd1-467d-bbf5-5c807e77fea9.mov
 
 ## Links
 
