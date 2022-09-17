@@ -26,10 +26,6 @@ WHEN the employer resizes the page or views the site on various screens and devi
 THEN they are presented with a responsive layout that adapts to their viewport
 ```
 
-## Mock-Up
-
-The following animation shows one of the many different types of the web application's appearance and functionality:
-
-## ![portfolio demo](./Assets/02-advanced-css-homework-demo.gif)
+## Video Demo
 
 © 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
