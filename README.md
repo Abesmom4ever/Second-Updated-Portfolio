@@ -28,4 +28,10 @@ THEN they are presented with a responsive layout that adapts to their viewport
 
 ## Video Demo
 
+## Links
+
+-   Github: https://github.com/Abesmom4ever/Second-Updated-Portfolio
+
+-   Portfolio: https://abesmom4ever.github.io/Second-Updated-Portfolio/
+
 © 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
